@@ -1,0 +1,21 @@
+<h1>Hello bee a cheese</h1>
+
+<p>This is my first webpage</p>
+
+<ul>
+    <li>Isn't this cool</li>
+    <li>web dev can be fun</li>
+    <li>don't forget to save your work</li>
+</ul>
+
+<p>My name is {{ first_name }}</p>
+
+<h3>Favorite Pizza:</h3>
+{% for topping in favorite_pizza %}
+    {{ topping }}<br/>
+
+{% endfor %}
+
+<br><br/>
+
+{{ favorite_pizza.0}}
